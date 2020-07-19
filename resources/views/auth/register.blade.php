@@ -2,7 +2,7 @@
 
 @section('content') 
 
-          <div class="card card-primary card-outline">
+          <div class="card card-success card-outline">
             <div class="card-header with-border">
               <h3 class="card-title">{{ __('memberregister.register') }}</h3>
             </div>
@@ -65,7 +65,7 @@
               </div>  
               <!-- /.card-body -->
               <div class="card-footer">
-                <button type="submit" class="btn btn-primary">{{ __('Register') }}</button>
+                <button type="submit" class="btn btn-outline-success">{{ __('Register') }}</button>
               </div>
             </form> 
           </div>    
